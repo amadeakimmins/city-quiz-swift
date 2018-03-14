@@ -24,7 +24,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert() {
-    print("Hello World!")
+//        let message = messageForCity(city)
+//        let buttonTitle = buttonTitleForCity(city)
+        let alert = UIAlertController(title: "CityQuiz", message: "Im City 1", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
 }
