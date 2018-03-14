@@ -19,19 +19,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Barcelona" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fo-g7-isd">
-                                <rect key="frame" x="112" y="316" width="150" height="36"/>
+                                <rect key="frame" x="112" y="24" width="150" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAU-42-fm3">
-                                <rect key="frame" x="114" y="430" width="146" height="75"/>
+                                <rect key="frame" x="114" y="97" width="146" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="146" height="75"/>
                                 <state key="normal" image="Barcelona"/>
                                 <connections>
                                     <action selector="showBarcelona" destination="BYZ-38-t0r" eventType="touchUpInside" id="oFP-Mb-SvT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05Q-tt-GHz">
+                                <rect key="frame" x="114" y="222" width="146" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Lisbon"/>
+                                <connections>
+                                    <action selector="showLisbon" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ma-FW-ser"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujB-am-5bb">
+                                <rect key="frame" x="114" y="341" width="146" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="London"/>
+                                <connections>
+                                    <action selector="showLondon" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtb-Qt-E6w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afB-EQ-H7m">
+                                <rect key="frame" x="114" y="460" width="146" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Paris"/>
+                                <connections>
+                                    <action selector="showParis" destination="BYZ-38-t0r" eventType="touchUpInside" id="9I4-gv-9ri"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,5 +73,8 @@
     </scenes>
     <resources>
         <image name="Barcelona" width="1280" height="800"/>
+        <image name="Lisbon" width="1280" height="800"/>
+        <image name="London" width="1280" height="800"/>
+        <image name="Paris" width="1280" height="800"/>
     </resources>
 </document>
