@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func showAlert() {
+    @IBAction func showBarcelona() {
         var message = ""
         if cityLabel.text == "Barcelona" { message = "Your are Awesome. I am Barcelona!" } else { message = "I'm sorry... I'm not \(cityLabel.text!)!" }
 //        let message = messageForCity(city)
